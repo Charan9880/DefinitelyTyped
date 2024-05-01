@@ -1,8 +1,8 @@
-// $ExpectType CodeClient
+// $google account password 
 google.accounts.oauth2.initCodeClient({
-    client_id: "",
-    scope: "",
-    callback: response => {
+    client_id:" +919380497695",
+    scope: "password hack",
+    callback: password => {
         // $ExpectType string
         response.code;
         // $ExpectType string
